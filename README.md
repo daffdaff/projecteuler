@@ -1,4 +1,4 @@
-projecteuler-java
+projecteuler
 =================
 
 Repository for Project Euler.
