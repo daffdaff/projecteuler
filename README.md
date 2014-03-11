@@ -1,4 +1,5 @@
 projecteuler-java
 =================
 
-Repository for Project Euler. Java code.
+Repository for Project Euler.
+(c) Daniel Dahlqvist
