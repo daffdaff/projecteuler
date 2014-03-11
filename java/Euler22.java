@@ -1,3 +1,8 @@
+/* 
+This version is able to handle Swedish едж although the sorting for едж isn't working 100%, the score is "correct" based on that it sorts деж.
+The code solves Euler22 original file ok!
+*/
+
 import java.io.File;
 import java.util.Scanner;
 import java.io.FileNotFoundException;
