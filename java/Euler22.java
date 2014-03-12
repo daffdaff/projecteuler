@@ -46,8 +46,6 @@ public class Euler22 {
 						case '�':
 							score = score + 29;
 							break;
-						case '-':
-							break;
 						case ' ':
 							break;
 						default:
