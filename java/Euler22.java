@@ -1,6 +1,7 @@
 /* 
-This version is able to handle Swedish ÅÄÖ although the sorting for ÅÄÖ isn't working 100%, the score is "correct" based on that it sorts ÄÅÖ.
-It also handles a file with names listed as following "Åke Andersson, Örjan Öst, Erland Svensson" etc. compared to the original Euler that had only uppercase and no white space. The code solves Euler22 original file ok! Give a text file without BOM as arguemnt.
+* This version is able to handle Swedish ÅÄÖ although the sorting for ÅÄÖ isn't working 100%, the score is "correct" based on that it sorts ÄÅÖ.
+* It also handles a file with names listed as following "Åke Andersson, Örjan Öst, Erland Svensson" etc. compared to the original Euler that had only uppercase and no
+* white space. The code solves Euler22 original file ok! Give a text file without BOM as arguemnt.
 */
 
 import java.io.File;
@@ -45,6 +46,8 @@ public class Euler22 {
 							break;						
 						case 'Ö':
 							score = score + 29;
+							break;
+						case '-':
 							break;
 						case ' ':
 							break;
